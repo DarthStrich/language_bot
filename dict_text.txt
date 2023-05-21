@@ -4,16 +4,16 @@ implement реализовать
 extend расширить
 definition определение
 scope область видимости
-deploy разворачивать приложение
+deploy разворачивать_приложение
 template шаблон
 issue проблема
-Response Ответ
+response ответ
 dependency зависимость
 maintain поддерживать
-Note that Обратите внимание
+note_that обратите_внимание
 request запрос
 geteway шлюз
-software программное обеспечение
+software программное_обеспечение
 data данные
 exception исключение
 encrypt зашифровать
@@ -23,5 +23,5 @@ utility утилита
 above выше
 below ниже
 capabilities возможности
-cat кот
-Cat Кот
+network сеть
+shutdown выключение

@@ -38,6 +38,7 @@ def write_dict(a, b):
     # a = input('engl: ')
     # b = input('rus: ')
     strii = "\n" + a + ' ' + b
+    strii = strii.lower()
     print(strii)
     file = open('dict_text.txt', 'a')
     file.write(strii)
