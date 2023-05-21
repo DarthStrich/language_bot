@@ -1,0 +1,27 @@
+variable переменная
+array массив
+implement реализовать
+extend расширить
+definition определение
+scope область видимости
+deploy разворачивать приложение
+template шаблон
+issue проблема
+Response Ответ
+dependency зависимость
+maintain поддерживать
+Note that Обратите внимание
+request запрос
+geteway шлюз
+software программное обеспечение
+data данные
+exception исключение
+encrypt зашифровать
+verify проверить
+disable отключить
+utility утилита
+above выше
+below ниже
+capabilities возможности
+cat кот
+Cat Кот
