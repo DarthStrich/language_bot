@@ -9,7 +9,7 @@ from telebot import types
 
 counter = 0
 answer_yes = ['+', 'да', 'д', 'Да', 'ага', 'угу', 'ye', 'yes', 'Y', 'go', 'Go', 'True', 'погнали',
-              'Добавить пару в словарь']
+              'Добавить пару в словарь', 'Тест. 5 слов']
 bot = telebot.TeleBot('5617570560:AAF1QEqNPqMFr6_maPgrHSaURVKE7SfYA_M')
 
 
@@ -69,11 +69,12 @@ def b_func(message):
 
 def test_func(message):
     global qu_1, dict_to_MP3
+    if message.text in answer_yes:
 
-    dict_to_MP3 = wwt.read_dict()
-    qu_1 = random.choice(list(dict_to_MP3))
-    an_1 = bot.send_message(message.chat.id, f'Как переводится {qu_1}?')
-    bot.register_next_step_handler(an_1, test_2)
+        dict_to_MP3 = wwt.read_dict()
+        qu_1 = random.choice(list(dict_to_MP3))
+        an_1 = bot.send_message(message.chat.id, f'Как переводится {qu_1}?')
+        bot.register_next_step_handler(an_1, test_2)
 
 
 def test_2(message):
